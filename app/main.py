@@ -33,3 +33,4 @@ def root():
 app_route = Route(user, auth, property, category)
 
 # uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
